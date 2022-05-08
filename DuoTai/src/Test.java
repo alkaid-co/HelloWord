@@ -14,7 +14,7 @@ public class Test {
         Animals.sta();
         System.out.println("================================");
         Animals a1 = new Animals(4);
-        Animals a2 = new Animals(4);
+        Animals a2 = new Animals(9);
         System.out.println(a1.equals(a2));
         System.out.println(a1.hashCode()==a2.hashCode());//hashcode 没被重写就会输出false.
 
